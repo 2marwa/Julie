@@ -90,6 +90,7 @@ main_window = Tk() # Allows the main window to run in/with Tk.
 main_window.title("Julie's Hire Store Tracker") # Setting what the window will display as a title.
 
 main_window.configure(borderwidth=10, relief='ridge') # Adding a border around the main window.entry_name = Entry(main_window).
+entry_name = Entry(main_window)
 entry_name.grid(column=1, row=0, padx=7, pady=5) # Setting where the input box will be.
 
 # List of items to be offered in the dropdown menu
